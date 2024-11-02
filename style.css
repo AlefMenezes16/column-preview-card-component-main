@@ -1,0 +1,152 @@
+.bloco-principal {
+    padding-top: 7em;
+    padding-left: 20em;
+    display: flex;
+}
+
+.bloco1 {
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 480px;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bloco2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 480px;
+    display: inline-block;
+}
+
+.bloco3 {
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 480px;
+    display: inline-block;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bloco1 img,
+.bloco2 img,
+.bloco3 img {
+    padding: 30px 0 30px 50px;
+}
+
+.bloco1 h1,
+.bloco2 h1,
+.bloco3 h1 {
+    padding: 0 0 30px 50px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.bloco1 p,
+.bloco2 p,
+.bloco3 p {
+    padding: 0 50px 50px 50px;
+    line-height: 1.5em;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button-bloco1{
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-bloco1 .style-button {
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    font-family: 'Lexend Deca';
+    color: hsl(31, 77%, 52%);
+
+}
+
+.button-bloco1:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.button-bloco1 .style-button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+.button-bloco2 {
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-bloco2 .style-button {
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    font-family: 'Lexend Deca';
+    color: hsl(184, 100%, 22%);
+
+}
+
+.button-bloco2:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.button-bloco2 .style-button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+
+.button-bloco3{
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+}
+
+.button-bloco3 .style-button {
+    display: block;
+    text-decoration: none;
+    padding: 15px 0;
+    font-family: 'Lexend Deca';
+    color: hsl(179, 100%, 13%);
+
+}
+
+.button-bloco3:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.button-bloco3 .style-button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 915px) {
+
+    .bloco-principal {
+        display: inline-block;
+        padding: 38px;
+    }
+    .bloco1,
+    .bloco2,
+    .bloco3 {
+        border-radius: 0%;
+    }
+}
